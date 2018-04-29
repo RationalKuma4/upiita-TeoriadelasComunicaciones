@@ -1,0 +1,3 @@
+C:/Users/Anselmo/Documents/GitHub/TeoriaComunicaciones/CRC/cmake-build-debug/CMakeFiles/CRC.dir
+C:/Users/Anselmo/Documents/GitHub/TeoriaComunicaciones/CRC/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Anselmo/Documents/GitHub/TeoriaComunicaciones/CRC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
