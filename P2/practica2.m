@@ -1,5 +1,6 @@
 close all;
 clear all;
+clc;
 
 %% Graficas Funcion mensaje
 f1=400/2*pi;
