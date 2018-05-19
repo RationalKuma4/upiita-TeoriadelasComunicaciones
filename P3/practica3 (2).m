@@ -23,7 +23,6 @@ hold on;
 plot(t,m);
 title('funcion m(t)')
 kp=10*pi;
-
 %%
 clc;
 clear all;
