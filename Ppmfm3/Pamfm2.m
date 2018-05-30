@@ -7,12 +7,18 @@ fc=30e3;
 fs=50*fc;
 ts=1/fs;
 t=-.5e-3:ts:.5e-3-ts;
-m1=2000*t;
-m=[m1 m1 m1 m1];
 t=-.5e-3:ts:3.5e-3-ts;
 w=linspace(-fs/2,fs/2,22000)*2*pi;
 kp=pi/2;
 kf=20000*pi;
+
+%% Serie 
+m=0;
+for v=-6:6
+    if(v~=0)
+        m=m+1i*(cos(v*pi)/(v*pi))*exp(1i*2000*pi*v*t);
+    end
+end
 
 %% Grafica
 figure(1);
