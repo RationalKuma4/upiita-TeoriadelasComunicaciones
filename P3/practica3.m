@@ -2,6 +2,7 @@ clc;
 clear all;
 close all;
 
+%%
 %Frecuencia de la portadora
 fc=150E3;
 %Frecuencia de muestreo
@@ -25,10 +26,6 @@ title('funcion m(t)')
 kp=10*pi;
 
 %%
-clc;
-clear all;
-close all;
-
 %Frecuencia de la portadora
 fc=150E3;
 %Frecuencia de muestreo
